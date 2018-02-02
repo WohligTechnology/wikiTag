@@ -5,16 +5,23 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','ngCordova'])
 
 .run(function($ionicPlatform) {
+  // var app = {
+  //   requiredFeatures: [ "2d_tracking", "geo" ],
+  //   isDeviceSupported: false,
+  //   startupConfiguration:
+  //   {
+  //       "camera_position": "back"
+  //   }
+  // }
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
       cordova.plugins.Keyboard.disableScroll(true);
-      app.WikitudePlugin = cordova.require(); 
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
