@@ -1,4 +1,5 @@
-angular.module('starter.controllers', ['starter.services', 'ngCordova'])
+var wikitudePlugin;
+angular.module('starter.controllers', ['starter.services', 'ngCordova','WikitudePlugin'])
 
 .controller('ScannerCtrl', function($scope, $timeout) {
   // START
