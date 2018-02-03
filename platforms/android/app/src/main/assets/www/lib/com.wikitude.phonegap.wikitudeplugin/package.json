@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "com.wikitude.phonegap.wikitudeplugin",
+        "scope": null,
+        "escapedName": "com.wikitude.phonegap.wikitudeplugin",
+        "name": "com.wikitude.phonegap.wikitudeplugin",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/wohlig/Documents/htdocs/wikiTag"
+    ]
+  ],
+  "_from": "com.wikitude.phonegap.wikitudeplugin@latest",
+  "_id": "com.wikitude.phonegap.wikitudeplugin@7.1.0",
+  "_inCache": true,
+  "_location": "/com.wikitude.phonegap.wikitudeplugin",
+  "_nodeVersion": "8.5.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/com.wikitude.phonegap.wikitudeplugin-7.1.0.tgz_1506412832698_0.5462747002020478"
+  },
+  "_npmUser": {
+    "name": "wikitude",
+    "email": "support@wikitude.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "com.wikitude.phonegap.wikitudeplugin",
+    "scope": null,
+    "escapedName": "com.wikitude.phonegap.wikitudeplugin",
+    "name": "com.wikitude.phonegap.wikitudeplugin",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.wikitude.phonegap.wikitudeplugin/-/com.wikitude.phonegap.wikitudeplugin-7.1.0.tgz",
+  "_shasum": "8f02217ed6069155929f0e1125c660592daf0c75",
+  "_shrinkwrap": null,
+  "_spec": "com.wikitude.phonegap.wikitudeplugin",
+  "_where": "/home/wohlig/Documents/htdocs/wikiTag",
+  "author": {
+    "name": "Wikitude GmbH"
+  },
+  "bugs": {
+    "url": "https://github.com/Wikitude/wikitude-phonegap/issues"
+  },
+  "cordova": {
+    "id": "",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Augmented Reality Wikitude SDK Plugin \n        The Wikitude Cordova Plugin enables developers to embed an augmented reality view into their PhoneGap project. You can create a fully featured app with advanced augmented reality features, including image rec",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-Ob+Ns5IzFYgxIg3UQdfH5HR1YwlNzUrhnFGl7b7JXsyKo2GppOrDMdYa7lXuj4Lc02nIBYFEA1ZiAbHPFta+tA==",
+    "shasum": "8f02217ed6069155929f0e1125c660592daf0c75",
+    "tarball": "https://registry.npmjs.org/com.wikitude.phonegap.wikitudeplugin/-/com.wikitude.phonegap.wikitudeplugin-7.1.0.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "gitHead": "8f1e61942c823f092ec4bdc011b8582236fb244d",
+  "homepage": "https://github.com/Wikitude/wikitude-phonegap#readme",
+  "keywords": [
+    "AR",
+    "augmented reality",
+    "Wikitude",
+    "image recognition",
+    "markerless tracking",
+    "cloud recognition",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "(c) 2016 - 2017 Wikitude GmbH - see License.md for details of the license",
+  "maintainers": [
+    {
+      "name": "pnagele-wikitude",
+      "email": "philipp.nagele@wikitude.com"
+    },
+    {
+      "name": "wikitude",
+      "email": "support@wikitude.com"
+    }
+  ],
+  "name": "com.wikitude.phonegap.wikitudeplugin",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wikitude/wikitude-phonegap.git"
+  },
+  "version": "7.1.0"
+}
